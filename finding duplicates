@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main(){
+public static void main(String[] args) {
+int i,a[],n,j,c=0; 
+Scanner input = new Scanner(System.in);
+System.out.println("enter size of array: ");
+n=input.nextInt();
+a= new int[n]; 
+System.out.println("enter elements: ");
+for(i=0;i<n;i++) 
+a[i]=input.nextInt ();
+for(i=0;i<n;i++){
+for(j=i+1;j<n;j++) {
+if(a[i]==a[j])
+c+=1;
+}
+
+}if(c>e)
+
+{
+
+System.out.println("duplicates exists");
+} else
+System.out.println("no duplicates");
+
+}}
